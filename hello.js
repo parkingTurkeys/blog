@@ -11,10 +11,16 @@ function replaceArticle(indexOfArticle) {
     document.getElementById("title").innerHTML = titles[indexOfArticle]
 }
 
-//Dark Mode I got from a tutorial, but the styling is all me :)
+//Dark Mode I got from a tutorial, but the styling & the emoji is all me :)
 
 function darkmode() {
     var element = document.body;
-    element.classList.toggle("dark-mode");
-    
+    var colorofback = document.getElementById("body").innerHTML;
+    element.classList.toggle("darkmode");
+    if (document.getElementById("darkmodebutton").innerHTML == "🌙" ) {
+        document.getElementById("darkmodebutton").innerHTML = "☀️"
+    } else {
+        document.getElementById("darkmodebutton").innerHTML = "🌙"
+    }
+
   }
