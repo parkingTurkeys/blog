@@ -1,6 +1,6 @@
 //coming soon
 const articles = [
-    "testing,testing,one,two,three! <h1>hi</h1>"
+    "testing,testing,one,two,three! <h1>hi</h1> <button onclick = 'alert()'>hi</button>"
 ]
 
 const titles = [
@@ -15,12 +15,12 @@ function replaceArticle(indexOfArticle) {
 
 function darkmode() {
     var element = document.body;
-    var colorofback = document.getElementById("body").innerHTML;
     element.classList.toggle("darkmode");
-    if (document.getElementById("darkmodebutton").innerHTML == "🌙" ) {
-        document.getElementById("darkmodebutton").innerHTML = "☀️"
+    if (document.getElementById("darkmodebutton").innerHTML == "☾" ) {
+        document.getElementById("darkmodebutton").innerHTML = "🌞︎︎"
     } else {
-        document.getElementById("darkmodebutton").innerHTML = "🌙"
-    }
+        document.getElementById("darkmodebutton").innerHTML = "☾"
+    };
 
   }
+

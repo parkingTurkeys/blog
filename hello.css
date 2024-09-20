@@ -1,17 +1,68 @@
 body{
+background-color: white;
 color:black;
-font-family: Consolas, monospace
+font-family: "Calibri"
 }
 
+button{
+     color : white;
+    box-shadow: none;
+    background-color: red;
+    border-style:solid;
+    border-color: red;
+    border-radius: 3px;
+}
 a{
 color:black;
+    
+}
+@keyframes biggeranim{
+    from {font-size: 100%};
+    to {font-size: 110%};
 }
 
+@keyframes smalleranim{
+    from {font-size: 110%;}
+    to {font-size: 100%;}
+}
+
+@keyframes darkmodeanim {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+#title{
+    font-size: 48px;
+}
+
+#darkmodebutton{
+    height: 2.1em;
+    width: 2.5em;
+    font-size: 200%;
+    padding:0px;
+}
 a:hover{
-font-size:96;
+    animation-name: biggeranim;
+    animation-duration: 0.2s;
+    font-size: 110%;
+}
+
+a:not(:hover) {
+    animation-name: smalleranim;
+    animation-duration: 0.2s;
 }
 /* After this it's dark mode settings */
-.darkmode {
-    background-color: black;
-    color : white
+
+.darkmode{
+    animation-name: darkmodeanim;
+    animation-duration: 1s;
+    background-color: rgb(30, 30, 30);
+    color : rgba(255, 255, 255, 0.811);
 }
+
+.darkmode a{
+    color:white; 
+}
+body.darkmode button{
+    background-color: red;
+}
+
