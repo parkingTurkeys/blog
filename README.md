@@ -12,7 +12,7 @@ Feel free to use it for yours!
 # What goes here?
 All sorts of fuuuuuuun stuff! I'm trying to ~~procrastinate~~ write a story, I'll tell fun experiences, AND show off my coding projects! 
 # RSS?
-Yep! Check it out at [the website](parkingturkeys.github.io/blog/rss.html).
+Yep! Check it out at [the website](https://parkingturkeys.github.io/blog/rss.html).
 # How does it work?
 It pulls from an array full of every article written in HTML. Also, there's an array full of the titles too. Then you make a tag with an onclick of `replacearticle()`. Then, you fill in the parentheses with the place in the array of the article. Remember, the first in an array is __0__!
 # CSS
