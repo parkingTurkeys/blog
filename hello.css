@@ -1,7 +1,9 @@
 body{
 background-color: white;
 color:black;
-font-family: "Calibri"
+font-family: "Calibri";
+animation-name: "lightmodeanim";
+animation-duration: 1s;
 }
 
 button{
@@ -28,7 +30,12 @@ color:black;
 
 @keyframes darkmodeanim {
     from {background-color: white;}
-    to {background-color: black;}
+    to {background-color: #1e1e1e;}
+}
+
+@keyframes lightmodeanim {
+    from {background-color: #1e1e1e;}
+    to {background-color: white;}
 }
 #title{
     font-size: 48px;
@@ -50,11 +57,19 @@ a:not(:hover) {
     animation-name: smalleranim;
     animation-duration: 0.2s;
 }
+
+#article-link{
+    color : #1e1e1e;
+    background-color : #c8c8f5a7;
+    padding:1em;
+    padding-right: 90%;
+    border-radius: 1em;
+}
 /* After this it's dark mode settings */
 
 .darkmode{
     animation-name: darkmodeanim;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     background-color: #1e1e1e;
     color : #ffffffcf;
 }
