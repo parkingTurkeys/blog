@@ -6,8 +6,9 @@ Feel free to use it for yours!
 # Table of Continents
 - [What is this? 🤔](#what-is-this)
 - [Table of Continents 🌎](#table-of-continents)
-- [What Goes Here?](#what-goes-here)
-- [RSS](#rss)
+- [What Goes Here? 🗺️](#what-goes-here)
+- [RSS 📡](#rss)
+- [CSS 🎨](#css)
 
 # What goes here?
 All sorts of fuuuuuuun stuff! I'm trying to ~~procrastinate~~ write a story, I'll tell fun experiences, AND show off my coding projects! 
