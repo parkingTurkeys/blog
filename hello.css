@@ -60,10 +60,11 @@ a:not(:hover) {
 
 #article-link{
     color : #1e1e1e;
-    background-color : #c8c8f5a7;
+    /*background-color : #c8c8f5a7;
     padding:1em;
     padding-right: 90%;
     border-radius: 1em;
+    ;*/
 }
 /* After this it's dark mode settings */
 
