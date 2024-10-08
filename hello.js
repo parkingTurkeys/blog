@@ -26,7 +26,7 @@ function getArticles() {
     list = document.getElementById("article-list")
     x = list.innerHTML
     for (let i = 0; i < articles.length; i++) {
-       x = `${x}<a onclick = "replaceArticle(${i})">${articleNames[i]}</a>`;
+       x = `${x}<span id ='bullet'> ~</span> <a onclick = "replaceArticle(${i})">${articleNames[i]}</a><br>`;
        list.innerHTML = x
     }
 }

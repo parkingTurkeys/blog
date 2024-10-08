@@ -7,36 +7,23 @@ animation-duration: 1s;
 }
 
 button{
-     color : white;
+    color : white;
     box-shadow: none;
     background-color: red;
     border-style:solid;
     border-color: red;
     border-radius: 3px;
 }
+#body button:hover {
+   animation-name: glowonanim;
+   animation-duration: 0.5s;
+   box-shadow: #ffffff 0 0 90px;
+   scale:1.1;
+}
 a{
 color:black;
-    
-}
-@keyframes biggeranim{
-    from {font-size: 100%};
-    to {font-size: 110%};
 }
 
-@keyframes smalleranim{
-    from {font-size: 110%;}
-    to {font-size: 100%;}
-}
-
-@keyframes darkmodeanim {
-    from {background-color: white;}
-    to {background-color: #1e1e1e;}
-}
-
-@keyframes lightmodeanim {
-    from {background-color: #1e1e1e;}
-    to {background-color: white;}
-}
 #title{
     font-size: 48px;
 }
@@ -51,6 +38,7 @@ a:hover{
     animation-name: biggeranim;
     animation-duration: 0.2s;
     font-size: 110%;
+    cursor:pointer;
 }
 
 a:not(:hover) {
@@ -65,6 +53,14 @@ a:not(:hover) {
     padding-right: 90%;
     border-radius: 1em;
     ;*/
+}
+
+#bullet {
+    color:white;
+    background-color:red;
+    height:2em;
+    width:1.1em;
+    border:none;
 }
 /* After this it's dark mode settings */
 
@@ -82,3 +78,31 @@ body.darkmode button{
     background-color: red;
 }
 
+
+
+/*animations*/
+
+@keyframes biggeranim{
+    from {transform:scale(1)};
+    to {transform:scale(1.1);};
+}
+
+@keyframes smalleranim{
+    from {transform:scale(1);}
+    to {transform:scale(1.1);}
+}
+
+@keyframes darkmodeanim {
+    from {background-color: white;}
+    to {background-color: #1e1e1e;}
+}
+
+@keyframes lightmodeanim {
+    from {background-color: #1e1e1e;}
+    to {background-color: white;}
+}
+
+@keyframes glowonanim {
+    from {box-shadow: none;}
+    to {box-shadow: #ffffff 0 0 90px ;}
+}
