@@ -62,6 +62,12 @@ a:not(:hover) {
     width:1.1em;
     border:none;
 }
+
+#subtitle{
+    font-size: 0.8em;
+    opacity: 70%;
+    margin-left: 10px;
+}
 /* After this it's dark mode settings */
 
 .darkmode{
@@ -80,7 +86,7 @@ body.darkmode button{
 
 
 
-/*animations*/
+/*animations*
 
 @keyframes biggeranim{
     from {transform:scale(1)};
@@ -106,3 +112,5 @@ body.darkmode button{
     from {box-shadow: none;}
     to {box-shadow: #ffffff 0 0 90px ;}
 }
+
+deleting animations b/c i want to

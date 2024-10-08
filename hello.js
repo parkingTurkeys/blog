@@ -1,18 +1,18 @@
-//coming soon
+
 const articleNames = [
-    "test", "Hey there!"
+    "My blog is ready!", "Hey there!"
 ]
 
 const articleSubtitles = [
-    "testing", "its @parking_turkeys"
+    "...finally", "its @parking_turkeys"
 ]
 
 const articles = [
-    "testing,testing,one,two,three! <h1>hi</h1> <button onclick = 'alert()'>hi</button>", "hello"
+    "So, my blog is finally ready! I guess you know that though, since you're here. My blog is just all around cool and will have loads of fun stuff, and maybe some stories.", "hello"
 ]
 
 const titles = [
-    "A test of your abilities", "hey"
+    "new blog!", "hey"
 ]
 getArticles()
 
@@ -26,7 +26,8 @@ function getArticles() {
     list = document.getElementById("article-list")
     x = list.innerHTML
     for (let i = 0; i < articles.length; i++) {
-       x = `${x}<span id ='bullet'> ~</span> <a onclick = "replaceArticle(${i})">${articleNames[i]}</a><br>`;
+       x = `${x}<span id ='bullet'> ~</span> <a onclick = "replaceArticle(${i})">${articleNames[i]}</a>`;
+       x = `${x}<span id = "subtitle">${articleSubtitles[i]}</span><br>`
        list.innerHTML = x
     }
 }
