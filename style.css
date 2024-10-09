@@ -25,7 +25,8 @@ color:black;
 }
 
 #title{
-    font-size: 48px;
+    font-variant: small-caps;
+    font-size: 120%;
 }
 
 #darkmodebutton{
