@@ -36,16 +36,12 @@ color:black;
     padding:0px;
 }
 a:hover{
-    animation-name: biggeranim;
+    
+    animation-name: glowonanim;
     animation-duration: 0.2s;
-    font-size: 110%;
     cursor:pointer;
 }
 
-a:not(:hover) {
-    animation-name: smalleranim;
-    animation-duration: 0.2s;
-}
 
 #article-link{
     color : #1e1e1e;
