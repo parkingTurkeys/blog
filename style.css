@@ -1,10 +1,10 @@
 #back {
     visibility: hidden;
-
+    cursor : pointer;
 }
 body{
-background-color: white;
-color:black;
+background-color: rgb(224, 224, 224);
+color:rgb(24, 24, 24);
 font-family: "Verdana";
 font-weight: 100;
 animation-name: "lightmodeanim";
@@ -14,15 +14,16 @@ font-size:2em;
 
 button{
     font-size : 8;
-    color : white;
-    background-color: red;
+    color : rgb(224, 224, 224);
+    background-color: rgb(107, 107, 107);
     border-style: none;
+    border-radius: 20px;
 }
+
 #body button:hover {
-   animation-name: glowonanim;
-   animation-duration: 0.5s;
-   box-shadow: #ffffff 0 0 90px;
+   box-shadow: #6c6c6c 0 0 90px;
 }
+
 a{
 color:black;
 }
@@ -32,14 +33,7 @@ color:black;
     font-size: 120%;
 }
 
-#darkmodebutton{
-    height: 2.1em;
-    width: 2.5em;
-    font-size: 100%;
-    padding:0px;
-}
 a:hover{
-    
     animation-name: glowonanim;
     animation-duration: 0.2s;
     cursor:pointer;
@@ -57,7 +51,7 @@ a:hover{
 
 #blogTitle {
     color:red;
-
+    font-weight: 600;
 }
 #bullet {
     color:red;
@@ -84,9 +78,7 @@ a:hover{
 .darkmode a{
     color:white; 
 }
-body.darkmode button{
-    background-color: red;
-}
+
 
 
 

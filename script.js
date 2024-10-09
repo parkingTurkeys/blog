@@ -34,3 +34,6 @@ function darkmode() {
 
   }
 
+function ccby() {
+    alert( "This work is licensed under CC BY-NC 4.0" )
+}
