@@ -1,5 +1,5 @@
 const articleNames = [
-    "My blog is ready!", 
+    "My amazing blog is ready!", 
     "Hey there!"
 ]
 
