@@ -1,15 +1,14 @@
 const articleNames = [
-    "My amazing story is ready!"
+    "Nothing here"
 ]
 
 const articleSubtitles = [
-    "...well the website at least"
+    "...yet"
 ]
 
 const articles = [
-    "So, my story is finally ready! I guess you know that though, since you're here. My story is just all around cool and will have loads of fun stuff, and maybe some stories."
+    "Hey, welcome to my story page! The page is different because this is licensed under CC-BY, and you have to attribute me if you want to use it! The story is <del>not started</del> still eing worked on"
 ]
-
 const titles = [
     "new story"
 ]
